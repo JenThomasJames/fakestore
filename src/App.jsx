@@ -1,7 +1,10 @@
 import "./App.css";
+import ProductPage from "./page/ProductPage";
 
 const App = () => {
-  return <h1 className="text-3xl font-bold underline text-blue-300">Fakestore UI works</h1>;
+  return <>
+  <ProductPage></ProductPage>
+  </>;
 };
 
 export default App;

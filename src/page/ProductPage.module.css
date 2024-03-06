@@ -1,0 +1,26 @@
+.productShowSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    margin: 1rem;
+}
+img{
+    width: 14rem;
+    height: 12rem;
+    object-fit: fill;
+}
+.ratingp{
+    margin-top: auto;
+    /* background-color: aqua;
+    color: red; */
+}
+
+.circle{
+    align-self: flex-end;
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid black;
+    border-radius: 50%;
+}
