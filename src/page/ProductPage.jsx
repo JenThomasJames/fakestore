@@ -40,14 +40,14 @@ const ProductPage = () => {
           <Card key={product.id} cardSize="small">
             {/* <div onClick={()=>addToWishList(product.id)} className={`${ProductView.circle }`}  style ={{backgroundColor:whilistColor}} ></div> */}
 
-            <div
+            {/* <div
               onClick={() => addToWishList(product.id)}
               className={`${ProductView.circle}`}
               style={{ backgroundColor: wishlistColors[product.id] || "" }}
             >
               {" "}
               {wishlistColors[product.id]}
-            </div>
+            </div> */}
 
             <img src={product?.image} alt="" />
             <h2 className={ProductView.titleClass}>{product?.title}</h2>
